@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "new-bucket-batch-7009"
+  bucket = "new-bucket-batch-09"
   acl    = "private"
 
   tags = {
